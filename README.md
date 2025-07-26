@@ -1,29 +1,29 @@
 # 🏏 IPL Data Analysis using Apache Spark & Databricks
 
-This project explores Indian Premier League (IPL) data using **Apache Spark** on the **Databricks** platform. It leverages distributed computing to analyze large-scale match and player data and extract meaningful insights for teams, players, and match performances.
+This project explores Indian Premier League (IPL) data using **Apache Spark** on the **Databricks** platform. It leverages distributed computing to analyze large-scale match and player data and extract meaningful insights related to team and player performance.
 
 ---
 
 ## 📌 Project Workflow
 
-![Workflow Diagram]([IPL Data Analysis](https://github.com/RahulnathMukkolla/Ipl-Data-Analysis-Using-Apache-Spark/blob/main/IPL%20Data%20Analysis%20.png))
+![Workflow Diagram](IPL%20Data%20Analysis%20.png)
 
-1. **Data Source**: IPL datasets such as ball-by-ball records, match details, players, and teams.
-2. **Storage**: Data ingested and stored in **Amazon S3** buckets.
-3. **Processing**: Data processed on **Databricks** using:
-   - **Apache Spark** for transformation
-   - **SQL Analytics** for queries
-   - **Visualization tools** for insight generation
+1. **Data Source**: IPL datasets including ball-by-ball records, match metadata, and player info.
+2. **Storage**: Data ingested and stored in **Amazon S3**.
+3. **Processing on Databricks**:
+   - **Spark** for large-scale transformation
+   - **SQL Analytics** for querying insights
+   - **Visualization tools** for reporting and dashboards
 
 ---
 
 ## 🧾 Dataset Files
 
-- `Ball_By_Ball.csv` – Ball-level IPL data (runs, wickets, overs)
-- `Match.csv` – Match metadata (venues, toss info, dates)
-- `Player.csv` – Player master data
-- `Player_match.csv` – Player participation in matches
-- `Team.csv` – Team master data
+- `Ball_By_Ball.csv` – Every ball's event: runs, extras, wickets, bowler, batsman
+- `Match.csv` – Match metadata: teams, venue, toss, result
+- `Player.csv` – Player master table
+- `Player_match.csv` – Player appearances per match
+- `Team.csv` – Team details
 
 ---
 
@@ -33,14 +33,23 @@ This project explores Indian Premier League (IPL) data using **Apache Spark** on
 - **Databricks**
 - **Amazon S3**
 - **SQL / Spark SQL**
-- **Data Visualization Libraries / BI Tools**
+- **Data Visualization (Charts, Plots)**
 
 ---
 
 ## 📊 Key Insights Extracted
 
 - Top-performing batsmen and bowlers
-- Match-winning patterns by toss, venue, or team
-- Team-wise total wins, losses, and performance trends
-- Season-wise player participation and dominance
-- Player matchups and detailed ball-by-ball outcomes
+- Toss impact on match outcomes
+- Season-wise player dominance
+- Match-winning trends by venue and team
+- Player matchups and ball-by-ball analytics
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/ipl-data-spark-databricks.git
+   cd ipl-data-spark-databricks
