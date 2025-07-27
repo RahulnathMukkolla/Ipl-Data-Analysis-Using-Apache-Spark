@@ -6,7 +6,7 @@ This project explores Indian Premier League (IPL) data using **Apache Spark** on
 
 ## 📌 Project Workflow
 
-![Workflow Diagram](IPL%20Data%20Analysis%20.png)
+![Workflow Diagram](IPL_Data_Analysis.png)
 
 1. **Data Source**: IPL datasets including ball-by-ball records, match metadata, and player info.
 2. **Storage**: Data ingested and stored in **Amazon S3**.
